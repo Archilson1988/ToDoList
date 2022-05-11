@@ -1,20 +1,36 @@
-// ToDoList.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
-
-#include <iostream>
+#include "Header.h"
 
 int main()
 {
-    std::cout << "Hello World!\n";
+	setlocale(LC_ALL, "");
+
+
+	return 0;
 }
 
-// Run program: Ctrl + F5 or Debug > Start Without Debugging menu
-// Debug program: F5 or Debug > Start Debugging menu
+/*Практическая работа
 
-// Tips for Getting Started: 
-//   1. Use the Solution Explorer window to add/manage files
-//   2. Use the Team Explorer window to connect to source control
-//   3. Use the Output window to see build output and other messages
-//   4. Use the Error List window to view errors
-//   5. Go to Project > Add New Item to create new code files, or Project > Add Existing Item to add existing code files to the project
-//   6. In the future, to open this project again, go to File > Open > Project and select the .sln file
+1. Добавить
+
+2. Удалить
+
+3. Изменить
+
+4. Очистить весь список дел
+
+Структура TodoItem : id, name, description, due_date, что - то еще...
+
+Структура TodoList : id, name, todoItems[]
+
+GIT:
+
+Создать ветку develop
+
+Для каждой отдельной функции реализовать отдельную ветку features / номер - задачи - название - задачи
+после имплементации в ветках - merge в develop веток
+
+Решить возможные merge конфликты
+
+Локальные feature ветки удалить, в origin(github) эти ветки оставить
+
+Слить все в master(develop оставить локально и удаленно) */
