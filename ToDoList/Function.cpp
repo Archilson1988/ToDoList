@@ -30,6 +30,8 @@ To_Do_List addToDoList(int id, string name)
 
 		userToDoList.toDoItems[counter] = userItem;
 
+		counter++;
+
 		cout << "Add new item(1) or comlete(0) ?" << endl;
 		cin >> choise;
 	}
